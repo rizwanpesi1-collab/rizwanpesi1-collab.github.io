@@ -2,29 +2,226 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- GOOGLE ADSENSE ACCOUNT / LINKING CODE - KEEP -->
-<meta name="google-adsense-account" content="ca-pub-4849304684017559">
-<meta name="google-site-verification" content="3cgMNksrqbAsy88FaT5iJcy_KwvV0A6yxqlGe6OJK2E">
+<!-- =========================
+SEO
+========================= -->
 
-<!-- GOOGLE ADSENSE LOADER - KEEP -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4849304684017559" crossorigin="anonymous"></script>
+<title>Free CV Maker & Resume Builder Online | CV PRO AI</title>
 
-<title>CV PRO AI</title>
+<meta
+name="description"
+content="Create a professional CV and resume online for free with CV PRO AI. Add education, work experience, skills and languages, choose from 13 CV templates, and download your CV as a PDF."
+>
+
+<meta
+name="keywords"
+content="free CV maker, CV maker online, free resume builder, resume maker, create CV online, professional CV, CV PDF, resume PDF, CV templates, free CV templates, job CV, student CV, fresher CV, professional resume, CV guide"
+>
+
+<meta name="robots" content="index, follow">
+
+<link
+rel="canonical"
+href="https://rizwanpesi1-collab.github.io/"
+>
+
+<meta name="author" content="CV PRO AI">
+
+<meta name="theme-color" content="#17365d">
+
+
+<!-- =========================
+OPEN GRAPH
+========================= -->
+
+<meta
+property="og:title"
+content="Free CV Maker & Resume Builder Online | CV PRO AI"
+>
+
+<meta
+property="og:description"
+content="Create a professional CV online for free, choose from 13 CV templates and download your CV as a PDF."
+>
+
+<meta
+property="og:type"
+content="website"
+>
+
+<meta
+property="og:url"
+content="https://rizwanpesi1-collab.github.io/"
+>
+
+<meta
+property="og:site_name"
+content="CV PRO AI"
+>
+
+
+<!-- =========================
+GOOGLE VERIFICATION
+========================= -->
+
+<meta
+name="google-site-verification"
+content="3cgMNksrqbAsy88FaT5iJcy_KwvV0A6yxqlGe6OJK2E"
+>
+
+
+<!-- =========================
+GOOGLE ADSENSE ACCOUNT
+KEEP
+========================= -->
+
+<meta
+name="google-adsense-account"
+content="ca-pub-4849304684017559"
+>
+
+
+<!-- =========================
+GOOGLE ADSENSE LOADER
+KEEP
+========================= -->
+
+<script
+async
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4849304684017559"
+crossorigin="anonymous">
+</script>
+
+
+<!-- =========================
+STRUCTURED DATA
+========================= -->
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebApplication",
+  "name":"CV PRO AI",
+  "url":"https://rizwanpesi1-collab.github.io/",
+  "description":"Free online CV maker and resume builder for creating professional CVs and downloading them as PDF.",
+  "applicationCategory":"BusinessApplication",
+  "operatingSystem":"Web Browser",
+  "offers":{
+    "@type":"Offer",
+    "price":"0",
+    "priceCurrency":"USD"
+  }
+}
+</script>
+
+
+<!-- =========================
+WEBSITE STRUCTURED DATA
+========================= -->
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"CV PRO AI",
+  "url":"https://rizwanpesi1-collab.github.io/"
+}
+</script>
+
+
+<!-- =========================
+FAQ STRUCTURED DATA
+========================= -->
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"Can I create a CV online for free?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Yes. CV PRO AI lets you create a professional CV online for free."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Can I download my CV as a PDF?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Yes. You can generate your CV and save it as a PDF file."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"How many CV templates are available?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"CV PRO AI provides 13 CV template options, including Classic, Modern, Elegant, Professional, Minimal and Pro designs."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Can students and freshers create a CV?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Yes. Students and freshers can create a CV using their education, skills, languages and available experience."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"How do I make a professional CV?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Enter your personal information, education, work experience, skills and languages, select a suitable CV template, generate the CV and save it as a PDF."
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- =========================
+LIBRARIES
+========================= -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
+
+<!-- =========================
+CSS
+========================= -->
+
 <style>
-*{box-sizing:border-box}
+
+*{
+box-sizing:border-box
+}
+
+html{
+scroll-behavior:smooth
+}
 
 body{
 margin:0;
-background:linear-gradient(135deg,#eef2f7,#e7ddff,#fff0f6,#dff7ff);
+background:linear-gradient(
+135deg,
+#eef2f7,
+#e7ddff,
+#fff0f6,
+#dff7ff
+);
 background-attachment:fixed;
 font-family:Arial,"Noto Sans",sans-serif;
-color:#222
+color:#222;
+line-height:1.6
 }
 
 .app{
@@ -36,10 +233,64 @@ padding:15px
 .title{
 text-align:center;
 color:#17365d;
-margin:10px 0 20px
+margin:10px 0 8px;
+font-size:38px
 }
 
-.panel,#smartAI{
+.subtitle{
+text-align:center;
+max-width:850px;
+margin:0 auto 25px;
+color:#555;
+font-size:17px
+}
+
+
+/* =========================
+NAVIGATION
+========================= */
+
+.site-nav{
+background:white;
+padding:12px;
+border-radius:14px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+gap:7px;
+margin-bottom:20px;
+position:sticky;
+top:8px;
+z-index:50
+}
+
+.site-nav a{
+text-decoration:none;
+color:#17365d;
+font-weight:bold;
+padding:9px 13px;
+border-radius:8px;
+font-size:14px
+}
+
+.site-nav a:hover{
+background:#eef2f7
+}
+
+
+/* =========================
+PANELS
+========================= */
+
+.panel,
+#smartAI,
+.info-section,
+.faq-section,
+.guide-section,
+.legal-section,
+.templates-section{
 background:white;
 padding:20px;
 border-radius:15px;
@@ -52,13 +303,19 @@ color:#17365d;
 margin-top:20px
 }
 
+h3{
+color:#17365d
+}
+
 label{
 display:block;
 font-weight:bold;
 margin-top:12px
 }
 
-input,textarea,select{
+input,
+textarea,
+select{
 width:100%;
 padding:12px;
 margin-top:6px;
@@ -73,7 +330,13 @@ min-height:90px;
 resize:vertical
 }
 
-.buttons,.ai-actions{
+
+/* =========================
+BUTTONS
+========================= */
+
+.buttons,
+.ai-actions{
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
@@ -115,6 +378,11 @@ background:#6f42c1;
 color:white
 }
 
+
+/* =========================
+COUNTERS
+========================= */
+
 #actionCounters{
 display:flex;
 flex-wrap:wrap;
@@ -131,6 +399,11 @@ box-shadow:0 2px 8px rgba(0,0,0,.08);
 color:#17365d;
 font-weight:bold
 }
+
+
+/* =========================
+ADSTERRA AREA
+========================= */
 
 .adsterra-ad{
 width:100%;
@@ -149,6 +422,11 @@ color:#999;
 margin-bottom:5px
 }
 
+
+/* =========================
+AI
+========================= */
+
 #smartAI h2{
 text-align:center;
 margin-top:0
@@ -157,7 +435,7 @@ margin-top:0
 .ai-intro{
 text-align:center;
 color:#555;
-line-height:1.6
+line-height:1.7
 }
 
 .ai-chat{
@@ -213,6 +491,265 @@ background:#eef2f7;
 color:#17365d;
 border:1px solid #ccd3dd
 }
+
+
+/* =========================
+SEO CONTENT
+========================= */
+
+.info-section,
+.guide-section,
+.legal-section{
+line-height:1.8
+}
+
+.info-section p,
+.guide-section p,
+.legal-section p{
+color:#444
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-top:15px
+}
+
+.feature{
+background:#f5f7fa;
+padding:16px;
+border-radius:12px;
+border:1px solid #e1e5eb
+}
+
+.feature strong{
+display:block;
+color:#17365d;
+margin-bottom:5px
+}
+
+
+/* =========================
+TEMPLATE SHOWCASE
+========================= */
+
+.template-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-top:15px
+}
+
+.template-card{
+border:1px solid #dfe4ea;
+border-radius:13px;
+padding:14px;
+background:#fff;
+box-shadow:0 2px 10px rgba(0,0,0,.05)
+}
+
+.template-card h3{
+margin:8px 0;
+font-size:18px
+}
+
+.template-card p{
+font-size:14px;
+color:#555
+}
+
+.template-preview{
+height:155px;
+background:#f4f6f8;
+border-radius:9px;
+padding:12px;
+overflow:hidden
+}
+
+.preview-header{
+height:30px;
+background:#17365d;
+border-radius:5px;
+margin-bottom:10px
+}
+
+.preview-title{
+height:8px;
+background:#17365d;
+border-radius:5px;
+width:45%;
+margin:8px 0
+}
+
+.preview-line{
+height:6px;
+background:#d5dbe3;
+border-radius:5px;
+margin:6px 0;
+width:85%
+}
+
+.preview-line.short{
+width:55%
+}
+
+.pro-badge{
+display:inline-block;
+background:#17365d;
+color:white;
+padding:3px 7px;
+border-radius:20px;
+font-size:10px;
+vertical-align:middle
+}
+
+
+/* TEMPLATE PREVIEWS */
+
+.preview-t2 .preview-header{
+background:#111
+}
+
+.preview-t3{
+font-family:Georgia,serif
+}
+
+.preview-t3 .preview-header{
+background:#b89a42
+}
+
+.preview-t3 .preview-title{
+background:#806000
+}
+
+.preview-t4 .preview-header{
+background:#198754
+}
+
+.preview-t4 .preview-title{
+background:#198754
+}
+
+.preview-t5 .preview-header{
+background:#dc3545
+}
+
+.preview-t5 .preview-title{
+background:#b02a37
+}
+
+.preview-t6 .preview-header{
+background:#17365d;
+height:40px
+}
+
+.preview-t7{
+background:#202124
+}
+
+.preview-t7 .preview-header{
+background:#111
+}
+
+.preview-t7 .preview-line{
+background:#555
+}
+
+.preview-t7 .preview-title{
+background:white
+}
+
+.preview-t8 .preview-header{
+background:#f57c00
+}
+
+.preview-t8 .preview-title{
+background:#e65100
+}
+
+.preview-t9 .preview-header{
+background:#777;
+height:22px
+}
+
+.preview-t9 .preview-title{
+background:#333
+}
+
+.preview-t10 .preview-header{
+background:#e91e63
+}
+
+.preview-t10 .preview-title{
+background:#c2185b
+}
+
+.preview-t11 .preview-header{
+background:linear-gradient(
+135deg,
+#17365d,
+#7b2cbf
+);
+height:42px
+}
+
+.preview-t11 .preview-title{
+background:#7b2cbf
+}
+
+.preview-t12{
+background:#202124
+}
+
+.preview-t12 .preview-header{
+background:#111;
+height:42px
+}
+
+.preview-t12 .preview-line{
+background:#555
+}
+
+.preview-t12 .preview-title{
+background:#fff
+}
+
+.preview-t13 .preview-header{
+background:linear-gradient(
+135deg,
+#198754,
+#0d6efd
+);
+height:42px
+}
+
+.preview-t13 .preview-title{
+background:#198754
+}
+
+.pro-template{
+border:2px solid #17365d
+}
+
+.use-template{
+display:block;
+text-align:center;
+background:#17365d;
+color:white;
+text-decoration:none;
+padding:9px;
+border-radius:8px;
+font-weight:bold;
+margin-top:10px
+}
+
+
+/* =========================
+CV
+========================= */
 
 #cv{
 width:210mm;
@@ -298,6 +835,11 @@ border-radius:20px;
 font-size:13px;
 overflow-wrap:anywhere
 }
+
+
+/* =========================
+ORIGINAL TEMPLATES 1-10
+========================= */
 
 .t2{
 border-top:12px solid #111!important
@@ -457,6 +999,113 @@ color:#c2185b
 border-color:#e91e63
 }
 
+
+/* =========================
+PRO TEMPLATE 11
+========================= */
+
+.t11{
+border-top:14px solid #17365d
+}
+
+.t11 .cv-header{
+background:linear-gradient(
+135deg,
+#17365d,
+#7b2cbf
+);
+padding:22px;
+border:0
+}
+
+.t11 .name{
+color:white
+}
+
+.t11 .contact{
+color:white
+}
+
+.t11 .section-title{
+color:#17365d;
+border-color:#7b2cbf
+}
+
+.t11 .tag{
+background:#eee7ff
+}
+
+
+/* =========================
+PRO TEMPLATE 12
+========================= */
+
+.t12{
+background:#202124!important;
+color:#eee
+}
+
+.t12 .cv-header{
+background:#111;
+padding:22px;
+border:0
+}
+
+.t12 .name{
+color:white
+}
+
+.t12 .contact{
+color:#ddd
+}
+
+.t12 .section-title{
+color:white;
+border-color:#777
+}
+
+.t12 .tag{
+background:#444;
+color:white
+}
+
+
+/* =========================
+PRO TEMPLATE 13
+========================= */
+
+.t13 .cv-header{
+background:linear-gradient(
+135deg,
+#198754,
+#0d6efd
+);
+padding:22px;
+border:0
+}
+
+.t13 .name{
+color:white
+}
+
+.t13 .contact{
+color:white
+}
+
+.t13 .section-title{
+color:#0d6efd;
+border-color:#198754
+}
+
+.t13 .tag{
+background:#e7f7ef
+}
+
+
+/* =========================
+MOBILE
+========================= */
+
 @media(max-width:700px){
 
 #cv{
@@ -494,7 +1143,34 @@ flex-direction:column
 width:100%
 }
 
+.title{
+font-size:30px
 }
+
+.subtitle{
+font-size:15px
+}
+
+.site-nav{
+position:relative;
+top:0
+}
+
+.site-nav a{
+font-size:13px;
+padding:7px 8px
+}
+
+.template-grid{
+grid-template-columns:1fr
+}
+
+}
+
+
+/* =========================
+PRINT
+========================= */
 
 @media print{
 
@@ -502,11 +1178,18 @@ body{
 background:white
 }
 
+.site-nav,
 .panel,
 .title,
+.subtitle,
 #actionCounters,
 #smartAI,
-.adsterra-ad{
+.adsterra-ad,
+.info-section,
+.faq-section,
+.guide-section,
+.templates-section,
+.legal-section{
 display:none
 }
 
@@ -517,25 +1200,87 @@ box-shadow:none
 }
 
 }
+
 </style>
+
 </head>
+
 
 <body>
 
 <div class="app">
 
-<h1 class="title">📄 CV PRO AI</h1>
+
+<!-- =========================
+NAVIGATION
+========================= -->
+
+<nav class="site-nav" aria-label="Main Navigation">
+
+<a href="#home">
+🏠 Home
+</a>
+
+<a href="#cv-builder">
+📝 CV Maker
+</a>
+
+<a href="#templates">
+🎨 CV Templates
+</a>
+
+<a href="#guide">
+📚 CV Guide
+</a>
+
+<a href="#faq">
+❓ FAQ
+</a>
+
+<a href="#privacy">
+🔒 Privacy
+</a>
+
+<a href="#terms">
+📄 Terms
+</a>
+
+</nav>
 
 
-<!-- ================================================= -->
-<!-- ADSTERRA CODE 5 - TOP LINK -->
-<!-- ================================================= -->
+<!-- =========================
+MAIN SEO HEADING
+========================= -->
+
+<header id="home">
+
+<h1 class="title">
+📄 Free CV Maker & Resume Builder
+</h1>
+
+<p class="subtitle">
+Create a professional CV online for free with
+<strong>CV PRO AI</strong>.
+Add your education, work experience, skills and languages,
+choose from <strong>13 CV templates</strong>, and download
+your professional CV as a PDF.
+</p>
+
+</header>
+
+
+<!-- =================================================
+ADSTERRA TOP LINK
+KEEP EXACTLY
+================================================= -->
 
 <div class="adsterra-ad">
 
 <div style="width:100%;max-width:728px">
 
-<div class="ad-label">Advertisement</div>
+<div class="ad-label">
+Advertisement
+</div>
 
 <a
 href="https://www.profitableratecpmnetwork.com/qufifx1b?key=38b946a670bfe376426205266f29b352"
@@ -561,15 +1306,18 @@ box-shadow:0 4px 15px rgba(0,0,0,.15);
 </div>
 
 
-<!-- ================================================= -->
-<!-- ADSTERRA CODE 1 -->
-<!-- ================================================= -->
+<!-- =================================================
+ADSTERRA 1
+KEEP EXACTLY
+================================================= -->
 
 <div class="adsterra-ad">
 
 <div>
 
-<div class="ad-label">Advertisement</div>
+<div class="ad-label">
+Advertisement
+</div>
 
 <script src="https://pl31300815.profitableratecpmnetwork.com/f6/de/0b/f6de0ba90a9005d1a13a4da9a127b124.js"></script>
 
@@ -589,15 +1337,15 @@ target="_top">
 <img
 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
 id="cg_8ed7e952"
-alt="Free Counter"
-title="Counter Statistics">
+alt="Free Visitor Counter"
+title="Visitor Counter Statistics">
 
 <noscript>
 
 <img
 src="https://besucherzaehler.gratis/counter.php?ID=8ed7e952&STYLE=576"
-alt="Free Counter"
-title="Counter Statistics">
+alt="Free Visitor Counter"
+title="Visitor Counter Statistics">
 
 </noscript>
 
@@ -646,15 +1394,18 @@ document.getElementById('cg_8ed7e952'),
 </div>
 
 
-<!-- ================================================= -->
-<!-- ADSTERRA CODE 2 -->
-<!-- ================================================= -->
+<!-- =================================================
+ADSTERRA 2
+KEEP EXACTLY
+================================================= -->
 
 <div class="adsterra-ad">
 
 <div>
 
-<div class="ad-label">Advertisement</div>
+<div class="ad-label">
+Advertisement
+</div>
 
 <script src="https://pl31300816.profitableratecpmnetwork.com/75/11/4e/75114e77a42d083ff50469032177085d.js"></script>
 
@@ -663,21 +1414,86 @@ document.getElementById('cg_8ed7e952'),
 </div>
 
 
-<!-- SMART AI -->
+<!-- =========================
+SEO INFORMATION
+========================= -->
+
+<section
+class="info-section"
+aria-labelledby="about-cv-maker">
+
+<h2 id="about-cv-maker">
+Free Online CV Maker & Resume Builder
+</h2>
+
+<p>
+<strong>CV PRO AI</strong> is a free online CV maker and resume builder
+that helps students, freshers, job seekers and professionals create
+a clean and professional CV directly in a web browser.
+</p>
+
+<p>
+You can enter your personal information, education, work experience,
+skills and languages, select from different CV templates and create
+a professional resume. You can also save your completed CV as a PDF
+or print it.
+</p>
+
+<div class="feature-grid">
+
+<div class="feature">
+<strong>📄 Create CV Online</strong>
+Build your CV directly from your browser without installing software.
+</div>
+
+<div class="feature">
+<strong>🎨 13 CV Templates</strong>
+Choose from Classic, Modern, Elegant, Professional, Minimal and
+Pro CV designs.
+</div>
+
+<div class="feature">
+<strong>📥 Download CV as PDF</strong>
+Generate your CV and save it as a PDF document.
+</div>
+
+<div class="feature">
+<strong>🤖 CV Assistant</strong>
+Get help with professional summaries, skills and interview preparation.
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+SMART AI
+========================= -->
 
 <div id="smartAI">
 
-<h2>🤖 CV PRO AI Assistant</h2>
+<h2>
+🤖 CV PRO AI Assistant
+</h2>
 
 <div class="ai-intro">
 
-آپ یہاں CV، Jobs، Skills، Interview اور Professional Summary کے بارے میں سوال پوچھ سکتے ہیں۔
+آپ یہاں CV، Jobs، Skills، Interview اور Professional Summary
+کے بارے میں سوال پوچھ سکتے ہیں۔
 
 <br>
 
-<b>مثال:</b> "FA کے بعد CV میں کون سی skills لکھوں؟"
+You can also ask questions about CV writing,
+resume skills, job interviews and professional summaries.
+
+<br><br>
+
+<b>مثال:</b>
+"FA کے بعد CV میں کون سی skills لکھوں؟"
 
 </div>
+
 
 <div id="aiChat" class="ai-chat">
 
@@ -687,17 +1503,21 @@ document.getElementById('cg_8ed7e952'),
 
 میں CV PRO AI Smart Assistant ہوں۔
 
-میں آپ کی CV کے مطابق Professional Summary، Skills،
-Job Description اور Interview Questions میں مدد کر سکتا ہوں۔
+میں آپ کی CV کے مطابق Professional Summary،
+Skills، Job Description اور Interview Questions
+میں مدد کر سکتا ہوں۔
 
 </div>
 
 </div>
+
 
 <textarea
 id="aiQuestion"
 class="ai-input"
-placeholder="اپنا سوال یہاں لکھیں..."></textarea>
+placeholder="اپنا سوال یہاں لکھیں...">
+</textarea>
+
 
 <div class="ai-actions">
 
@@ -720,6 +1540,7 @@ type="button">
 </button>
 
 </div>
+
 
 <div class="ai-actions">
 
@@ -755,90 +1576,176 @@ onclick="quickAI('مجھے job interview کی تیاری کرواؤ')">
 </div>
 
 
-<!-- PERSONAL INFORMATION -->
+<!-- =========================
+CV FORM
+========================= -->
 
-<div class="panel">
+<div
+class="panel"
+id="cv-builder">
 
-<h2>👤 Personal Information</h2>
+<h2>
+👤 Personal Information
+</h2>
 
-<label>Full Name</label>
+<label>
+Full Name
+</label>
 
 <input
 id="name"
 type="text"
-placeholder="محمد رضوان / Muhammad Rizwan">
+placeholder="Muhammad Rizwan / محمد رضوان"
+>
 
-<label>Email</label>
+
+<label>
+Email
+</label>
 
 <input
 id="email"
 type="email"
-placeholder="example@email.com">
+placeholder="example@email.com"
+>
 
-<label>Contact</label>
+
+<label>
+Contact
+</label>
 
 <input
 id="phone"
 type="text"
-placeholder="+92 300 1234567">
+placeholder="+92 300 1234567"
+>
 
-<label>Address</label>
+
+<label>
+Address
+</label>
 
 <textarea
 id="address"
-placeholder="Your address"></textarea>
+placeholder="Your address">
+</textarea>
 
-<label>Profile Photo</label>
+
+<label>
+Profile Photo
+</label>
 
 <input
 id="photo"
 type="file"
-accept="image/*">
+accept="image/*"
+>
 
-<h2>🎨 CV Template</h2>
+
+<h2>
+🎨 CV Template
+</h2>
 
 <select id="template">
 
-<option value="t1">Template 1 - Classic</option>
-<option value="t2">Template 2 - Modern</option>
-<option value="t3">Template 3 - Elegant</option>
-<option value="t4">Template 4 - Green</option>
-<option value="t5">Template 5 - Red</option>
-<option value="t6">Template 6 - Professional</option>
-<option value="t7">Template 7 - Dark</option>
-<option value="t8">Template 8 - Orange</option>
-<option value="t9">Template 9 - Minimal</option>
-<option value="t10">Template 10 - Pink</option>
+<option value="t1">
+Template 1 - Classic
+</option>
+
+<option value="t2">
+Template 2 - Modern
+</option>
+
+<option value="t3">
+Template 3 - Elegant
+</option>
+
+<option value="t4">
+Template 4 - Green
+</option>
+
+<option value="t5">
+Template 5 - Red
+</option>
+
+<option value="t6">
+Template 6 - Professional
+</option>
+
+<option value="t7">
+Template 7 - Dark
+</option>
+
+<option value="t8">
+Template 8 - Orange
+</option>
+
+<option value="t9">
+Template 9 - Minimal
+</option>
+
+<option value="t10">
+Template 10 - Pink
+</option>
+
+<option value="t11">
+Template 11 - Pro Modern
+</option>
+
+<option value="t12">
+Template 12 - Pro Dark
+</option>
+
+<option value="t13">
+Template 13 - Pro Business
+</option>
 
 </select>
 
-<h2>🎓 Education</h2>
+
+<h2>
+🎓 Education
+</h2>
 
 <textarea
 id="education"
 placeholder="FA / Intermediate
 Government Higher Secondary School
-Computer Diploma"></textarea>
+Computer Diploma">
+</textarea>
 
-<h2>💼 Work Experience</h2>
+
+<h2>
+💼 Work Experience
+</h2>
 
 <textarea
 id="experience"
 placeholder="Company Name
 Job Title
-Responsibilities"></textarea>
+Responsibilities">
+</textarea>
 
-<h2>⭐ Skills</h2>
+
+<h2>
+⭐ Skills
+</h2>
 
 <textarea
 id="skills"
-placeholder="Computer Skills, MS Office, Data Entry, Communication"></textarea>
+placeholder="Computer Skills, MS Office, Data Entry, Communication">
+</textarea>
 
-<h2>🌐 Languages</h2>
+
+<h2>
+🌐 Languages
+</h2>
 
 <textarea
 id="languages"
-placeholder="Urdu, English, Punjabi"></textarea>
+placeholder="Urdu, English, Punjabi">
+</textarea>
+
 
 <div class="buttons">
 
@@ -851,6 +1758,7 @@ type="button">
 
 </button>
 
+
 <button
 id="pdfBtn"
 class="pdf"
@@ -860,6 +1768,7 @@ type="button">
 
 </button>
 
+
 <button
 id="printBtn"
 class="print"
@@ -868,6 +1777,7 @@ type="button">
 🖨️ Print
 
 </button>
+
 
 <button
 id="clearBtn"
@@ -883,118 +1793,509 @@ type="button">
 </div>
 
 
-<!-- CV PREVIEW -->
+<!-- =========================
+TEMPLATES SEO SECTION
+========================= -->
 
-<div id="cv" class="t1">
+<section
+class="templates-section"
+id="templates">
 
-<div class="cv-header">
+<h2>
+🎨 Free CV Templates & Resume Templates
+</h2>
 
-<img
-id="pPhoto"
-class="photo"
-style="display:none"
-alt="Profile Photo">
+<p>
+CV PRO AI provides 13 CV template options for students,
+freshers, job seekers and professionals. You can select a
+template from the CV maker above and immediately preview
+your information in that design.
+</p>
 
-<div class="info">
-
-<h1
-id="pName"
-class="name"
-dir="auto">
-
-Your Name
-
-</h1>
-
-<div
-id="pContact"
-class="contact"
-dir="auto">
-
-Email | Contact | Address
-
-</div>
-
-</div>
-
-</div>
+<div class="template-grid">
 
 
-<div class="section">
+<!-- 1 -->
 
-<div class="section-title">
-EDUCATION
-</div>
+<div class="template-card">
 
-<div
-id="pEducation"
-class="content"
-dir="auto">
+<div class="template-preview">
 
-Your education details
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
 
 </div>
 
-</div>
+<h3>
+Template 1 – Classic CV
+</h3>
 
+<p>
+A clean classic CV layout suitable for students, freshers
+and general job applications.
+</p>
 
-<div class="section">
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t1')">
 
-<div class="section-title">
-WORK EXPERIENCE
-</div>
+Use Template 1
 
-<div
-id="pExperience"
-class="content"
-dir="auto">
-
-Your work experience
-
-</div>
+</a>
 
 </div>
 
 
-<div class="section">
+<!-- 2 -->
 
-<div class="section-title">
-SKILLS
-</div>
+<div class="template-card">
 
-<div
-id="pSkills"
-class="tags">
-</div>
+<div class="template-preview preview-t2">
 
-</div>
-
-
-<div class="section">
-
-<div class="section-title">
-LANGUAGES
-</div>
-
-<div
-id="pLanguages"
-class="tags">
-</div>
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
 
 </div>
 
+<h3>
+Template 2 – Modern CV
+</h3>
+
+<p>
+A modern black-accent resume layout with a simple,
+contemporary appearance.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t2')">
+
+Use Template 2
+
+</a>
+
 </div>
 
 
-<!-- ================================================= -->
-<!-- ADSTERRA CODE 3 -->
-<!-- ================================================= -->
+<!-- 3 -->
+
+<div class="template-card">
+
+<div class="template-preview preview-t3">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 3 – Elegant CV
+</h3>
+
+<p>
+An elegant CV design suitable for professional and
+office job applications.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t3')">
+
+Use Template 3
+
+</a>
+
+</div>
+
+
+<!-- 4 -->
+
+<div class="template-card">
+
+<div class="template-preview preview-t4">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 4 – Green CV
+</h3>
+
+<p>
+A fresh green professional design for business and
+general employment applications.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t4')">
+
+Use Template 4
+
+</a>
+
+</div>
+
+
+<!-- 5 -->
+
+<div class="template-card">
+
+<div class="template-preview preview-t5">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 5 – Red CV
+</h3>
+
+<p>
+A strong red-accent resume style for applicants who
+prefer a noticeable design.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t5')">
+
+Use Template 5
+
+</a>
+
+</div>
+
+
+<!-- 6 -->
+
+<div class="template-card">
+
+<div class="template-preview preview-t6">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 6 – Professional CV
+</h3>
+
+<p>
+A professional blue layout suitable for office,
+corporate and experienced job applications.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t6')">
+
+Use Template 6
+
+</a>
+
+</div>
+
+
+<!-- 7 -->
+
+<div class="template-card">
+
+<div class="template-preview preview-t7">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 7 – Dark CV
+</h3>
+
+<p>
+A dark modern resume concept for users who want a
+distinctive CV presentation.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t7')">
+
+Use Template 7
+
+</a>
+
+</div>
+
+
+<!-- 8 -->
+
+<div class="template-card">
+
+<div class="template-preview preview-t8">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 8 – Orange CV
+</h3>
+
+<p>
+An orange-accent resume design with a modern and
+energetic appearance.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t8')">
+
+Use Template 8
+
+</a>
+
+</div>
+
+
+<!-- 9 -->
+
+<div class="template-card">
+
+<div class="template-preview preview-t9">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 9 – Minimal CV
+</h3>
+
+<p>
+A minimal and clean CV design that keeps attention on
+qualifications, skills and experience.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t9')">
+
+Use Template 9
+
+</a>
+
+</div>
+
+
+<!-- 10 -->
+
+<div class="template-card">
+
+<div class="template-preview preview-t10">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 10 – Pink CV
+</h3>
+
+<p>
+A stylish pink-accent resume design for applicants
+who want a different appearance.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t10')">
+
+Use Template 10
+
+</a>
+
+</div>
+
+
+<!-- 11 -->
+
+<div class="template-card pro-template">
+
+<div class="template-preview preview-t11">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 11 – Pro Modern
+<span class="pro-badge">
+PRO
+</span>
+</h3>
+
+<p>
+A premium modern design with a strong professional
+header and contemporary structure.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t11')">
+
+Use Pro Template 11
+
+</a>
+
+</div>
+
+
+<!-- 12 -->
+
+<div class="template-card pro-template">
+
+<div class="template-preview preview-t12">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 12 – Pro Dark
+<span class="pro-badge">
+PRO
+</span>
+</h3>
+
+<p>
+A premium dark CV style for applicants looking for
+a modern and distinctive resume design.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t12')">
+
+Use Pro Template 12
+
+</a>
+
+</div>
+
+
+<!-- 13 -->
+
+<div class="template-card pro-template">
+
+<div class="template-preview preview-t13">
+
+<div class="preview-header"></div>
+<div class="preview-title"></div>
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+
+</div>
+
+<h3>
+Template 13 – Pro Business
+<span class="pro-badge">
+PRO
+</span>
+</h3>
+
+<p>
+A professional business-style CV design suitable for
+corporate roles and experienced candidates.
+</p>
+
+<a
+class="use-template"
+href="#cv-builder"
+onclick="selectTemplate('t13')">
+
+Use Pro Template 13
+
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- =================================================
+ADSTERRA 3
+KEEP EXACTLY
+================================================= -->
 
 <div class="adsterra-ad">
 
 <div>
 
-<div class="ad-label">Advertisement</div>
+<div class="ad-label">
+Advertisement
+</div>
 
 <script>
 
@@ -1014,22 +2315,27 @@ atOptions = {
 
 </script>
 
-<script src="https://www.highrevenueformat.com/88f78f9d4a400e810d44142e1a2cc916/invoke.js"></script>
+<script
+src="https://www.highrevenueformat.com/88f78f9d4a400e810d44142e1a2cc916/invoke.js">
+</script>
 
 </div>
 
 </div>
 
 
-<!-- ================================================= -->
-<!-- ADSTERRA CODE 4 -->
-<!-- ================================================= -->
+<!-- =================================================
+ADSTERRA 4
+KEEP EXACTLY
+================================================= -->
 
 <div class="adsterra-ad">
 
 <div>
 
-<div class="ad-label">Advertisement</div>
+<div class="ad-label">
+Advertisement
+</div>
 
 <script
 async="async"
@@ -1045,69 +2351,710 @@ id="container-45001da672934822dbbd3dec1d8182d5">
 
 </div>
 
+
+<!-- =========================
+CV GUIDE
+========================= -->
+
+<section
+class="guide-section"
+id="guide">
+
+<h2>
+📚 How to Make a Professional CV
+</h2>
+
+<p>
+A professional CV should clearly present your education,
+experience, skills and contact information. The most important
+thing is that the information is accurate, easy to read and
+relevant to the job you are applying for.
+</p>
+
+
+<h3>
+1. Add Your Personal Information
+</h3>
+
+<p>
+Start with your full name, email address, phone number and
+location or address. Use an email address that looks
+professional and make sure your contact information is correct.
+</p>
+
+
+<h3>
+2. Write a Professional Summary
+</h3>
+
+<p>
+A professional summary is a short introduction that explains
+your background, strengths and career goals. Keep it focused
+on the type of work you are applying for.
+</p>
+
+
+<h3>
+3. Add Your Education
+</h3>
+
+<p>
+List your latest or most relevant qualification first. Include
+the qualification, institution and year or result when useful.
+Students and freshers can give more space to education when
+they have limited work experience.
+</p>
+
+
+<h3>
+4. Add Work Experience
+</h3>
+
+<p>
+For each job, include the company, job title and important
+responsibilities. Focus on relevant work and describe what
+you actually did rather than adding information that is not
+accurate.
+</p>
+
+
+<h3>
+5. Add Relevant Skills
+</h3>
+
+<p>
+Skills should match your real abilities and, when possible,
+the requirements of the job. Examples can include communication,
+MS Office, data entry, typing, teamwork and time management.
+Only list skills you genuinely have.
+</p>
+
+
+<h3>
+6. Add Languages
+</h3>
+
+<p>
+List languages you can communicate in. If appropriate, you can
+also mention your level, such as basic, intermediate or fluent.
+</p>
+
+
+<h3>
+7. Choose the Right CV Template
+</h3>
+
+<p>
+Choose a CV design that makes your information easy to read.
+For many office and professional applications, a clean and
+structured layout can make the information easier to scan.
+CV PRO AI provides 13 template options.
+</p>
+
+
+<h3>
+8. Download Your CV as PDF
+</h3>
+
+<p>
+After checking your information, use the Save CV as PDF button
+to create a PDF version. Before sending the CV to an employer,
+open the PDF and check that the text, spacing and contact
+information appear correctly.
+</p>
+
+
+<h3>
+9. Check Your CV Before Applying
+</h3>
+
+<p>
+Check spelling, phone number, email address, education,
+experience and skills before submitting your CV. Make sure
+your information is truthful and relevant to the position.
+</p>
+
+
+<h3>
+CV Tips for Students and Freshers
+</h3>
+
+<p>
+If you are a student or fresher and do not have much work
+experience, focus on education, projects, computer skills,
+communication skills, certifications, internships and other
+relevant achievements that you actually have.
+</p>
+
+
+<h3>
+Common CV Mistakes
+</h3>
+
+<p>
+Common problems include spelling mistakes, incorrect contact
+details, unnecessary information, very long paragraphs,
+unprofessional email addresses and claiming skills or
+experience that you do not have.
+</p>
+
+</section>
+
+
+<!-- =========================
+SEO CONTENT
+========================= -->
+
+<section
+class="info-section"
+aria-labelledby="why-use">
+
+<h2 id="why-use">
+Why Use CV PRO AI?
+</h2>
+
+<p>
+Creating a professional resume can be difficult when starting
+from scratch. CV PRO AI provides a simple online CV builder
+where you can enter your information and create a structured
+resume.
+</p>
+
+<h3>
+Create a CV for Jobs
+</h3>
+
+<p>
+Use your education, work experience, skills and languages to
+prepare a CV for job applications. Students and freshers can
+also create a resume using their qualifications and relevant
+skills.
+</p>
+
+<h3>
+Professional CV Templates
+</h3>
+
+<p>
+Choose from 13 CV templates including Classic, Modern, Elegant,
+Professional, Minimal and Pro designs. You can change the
+template before saving your CV.
+</p>
+
+<h3>
+CV PDF Download
+</h3>
+
+<p>
+After generating your CV, use the Save CV as PDF button to
+create a PDF version that can be stored or used for job
+applications.
+</p>
+
+</section>
+
+
+<!-- =========================
+FAQ
+========================= -->
+
+<section
+class="faq-section"
+aria-labelledby="faq"
+id="faq">
+
+<h2>
+Frequently Asked Questions
+</h2>
+
+
+<h3>
+Can I create a CV online for free?
+</h3>
+
+<p>
+Yes. CV PRO AI provides a free online CV maker that allows
+you to enter your information and create a professional CV.
+</p>
+
+
+<h3>
+Can I download my CV as a PDF?
+</h3>
+
+<p>
+Yes. After generating your CV, click
+<strong>Save CV as PDF</strong> to create a PDF file.
+</p>
+
+
+<h3>
+How many CV templates are available?
+</h3>
+
+<p>
+CV PRO AI provides 13 CV template options, including Classic,
+Modern, Elegant, Green, Red, Professional, Dark, Orange,
+Minimal, Pink and three Pro designs.
+</p>
+
+
+<h3>
+Can students and freshers create a CV?
+</h3>
+
+<p>
+Yes. Students and freshers can create a CV using their education,
+skills, languages, projects and available work experience.
+</p>
+
+
+<h3>
+Can I print my CV?
+</h3>
+
+<p>
+Yes. Use the Print button after generating your CV.
+</p>
+
+
+<h3>
+How do I make a professional CV?
+</h3>
+
+<p>
+Enter accurate personal information, education, work experience,
+skills and languages. Choose a suitable template, generate the
+CV, check the information and save it as a PDF.
+</p>
+
+</section>
+
+
+<!-- =========================
+PRIVACY POLICY
+========================= -->
+
+<section
+class="legal-section"
+id="privacy">
+
+<h2>
+🔒 Privacy Policy
+</h2>
+
+<p>
+<strong>Last updated: September 2026</strong>
+</p>
+
+<p>
+CV PRO AI respects user privacy. This page explains how the
+website handles information when you use the online CV maker.
+</p>
+
+
+<h3>
+1. Information You Enter
+</h3>
+
+<p>
+Information such as your name, email, phone number, address,
+education, work experience, skills and languages may be entered
+into the CV maker. The CV generator processes this information
+in your browser for the purpose of creating your CV.
+</p>
+
+
+<h3>
+2. Profile Photos
+</h3>
+
+<p>
+If you select a profile photo, the website uses the selected
+image to display it in the CV preview and generate the CV.
+You should only upload images that you have permission to use.
+</p>
+
+
+<h3>
+3. Cookies and Advertising
+</h3>
+
+<p>
+This website may display advertisements through third-party
+advertising and monetization services. These services may use
+cookies, scripts or similar technologies according to their
+own policies. Third-party advertising providers may collect
+information according to their respective privacy policies.
+</p>
+
+
+<h3>
+4. Third-Party Services
+</h3>
+
+<p>
+CV PRO AI uses third-party services and libraries for certain
+website functions, including advertising, visitor counting,
+PDF generation and other technical features. These services
+may process technical information according to their own terms
+and privacy policies.
+</p>
+
+
+<h3>
+5. External Websites
+</h3>
+
+<p>
+The website may contain links to external websites or
+advertisements. CV PRO AI does not control the privacy
+practices of external websites. Users should review the
+privacy policies of those websites before providing personal
+information.
+</p>
+
+
+<h3>
+6. Security
+</h3>
+
+<p>
+Users should avoid entering sensitive information that is not
+required for a CV. No website can guarantee absolute security
+of information transmitted over the internet.
+</p>
+
+
+<h3>
+7. Children's Privacy
+</h3>
+
+<p>
+This website is intended for general users creating CVs and
+resumes. Users should not submit information that they are not
+authorized to provide.
+</p>
+
+
+<h3>
+8. Changes to This Policy
+</h3>
+
+<p>
+This Privacy Policy may be updated when website functionality,
+services or legal requirements change. The updated version will
+be published on this page.
+</p>
+
+</section>
+
+
+<!-- =========================
+TERMS
+========================= -->
+
+<section
+class="legal-section"
+id="terms">
+
+<h2>
+📄 Terms & Conditions
+</h2>
+
+<p>
+<strong>Last updated: September 2026</strong>
+</p>
+
+
+<h3>
+1. Use of the Website
+</h3>
+
+<p>
+CV PRO AI provides an online tool for creating CVs and resumes.
+You agree to use the website for lawful purposes and in a way
+that does not interfere with the website or other users.
+</p>
+
+
+<h3>
+2. User Information
+</h3>
+
+<p>
+You are responsible for the accuracy of the information you
+enter into your CV. You should review your CV before using it
+for a job application.
+</p>
+
+
+<h3>
+3. No Employment Guarantee
+</h3>
+
+<p>
+CV PRO AI provides CV creation tools and general CV guidance.
+Using the website or a particular CV template does not guarantee
+employment, an interview or acceptance by an employer.
+</p>
+
+
+<h3>
+4. Templates and Website Content
+</h3>
+
+<p>
+The website design, templates, text and functionality may be
+changed, updated or removed without prior notice.
+</p>
+
+
+<h3>
+5. Third-Party Services
+</h3>
+
+<p>
+The website may contain advertisements, external links and
+third-party services. CV PRO AI is not responsible for the
+content, availability or privacy practices of external websites.
+</p>
+
+
+<h3>
+6. Availability
+</h3>
+
+<p>
+We aim to keep the website available, but we do not guarantee
+that the service will always be uninterrupted, error-free or
+available on every device or network.
+</p>
+
+
+<h3>
+7. Acceptable Use
+</h3>
+
+<p>
+You must not use the website for unlawful activity, abuse,
+fraud, harmful activity or attempts to interfere with the
+operation of the website.
+</p>
+
+
+<h3>
+8. Responsibility for Downloads
+</h3>
+
+<p>
+You are responsible for checking the generated CV before
+sending or uploading it to an employer, recruitment platform
+or other service.
+</p>
+
+
+<h3>
+9. Changes to Terms
+</h3>
+
+<p>
+These Terms & Conditions may be updated when necessary. Continued
+use of the website after changes means that you accept the
+updated terms.
+</p>
+
+</section>
+
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer>
+
+<p>
+<strong>CV PRO AI</strong>
+</p>
+
+<p>
+Free CV Maker & Resume Builder Online
+</p>
+
+<p>
+
+<a href="#home">
+Home
+</a>
+
+|
+
+<a href="#cv-builder">
+CV Maker
+</a>
+
+|
+
+<a href="#templates">
+Templates
+</a>
+
+|
+
+<a href="#guide">
+CV Guide
+</a>
+
+|
+
+<a href="#privacy">
+Privacy Policy
+</a>
+
+|
+
+<a href="#terms">
+Terms & Conditions
+</a>
+
+</p>
+
+<p style="font-size:13px;opacity:.85">
+© 2026 CV PRO AI. All rights reserved.
+</p>
+
+</footer>
+
+
 </div>
 
 
+<!-- =================================================
+JAVASCRIPT
+================================================= -->
+
 <script>
+
 
 /* =========================
 GET ELEMENTS
 ========================= */
 
-const nameInput=document.getElementById("name");
-const emailInput=document.getElementById("email");
-const phoneInput=document.getElementById("phone");
-const addressInput=document.getElementById("address");
-const educationInput=document.getElementById("education");
-const experienceInput=document.getElementById("experience");
-const skillsInput=document.getElementById("skills");
-const languagesInput=document.getElementById("languages");
-const templateInput=document.getElementById("template");
-const photoInput=document.getElementById("photo");
+const nameInput =
+document.getElementById("name");
 
-const cv=document.getElementById("cv");
-const pName=document.getElementById("pName");
-const pContact=document.getElementById("pContact");
-const pEducation=document.getElementById("pEducation");
-const pExperience=document.getElementById("pExperience");
-const pSkills=document.getElementById("pSkills");
-const pLanguages=document.getElementById("pLanguages");
-const pPhoto=document.getElementById("pPhoto");
+const emailInput =
+document.getElementById("email");
+
+const phoneInput =
+document.getElementById("phone");
+
+const addressInput =
+document.getElementById("address");
+
+const educationInput =
+document.getElementById("education");
+
+const experienceInput =
+document.getElementById("experience");
+
+const skillsInput =
+document.getElementById("skills");
+
+const languagesInput =
+document.getElementById("languages");
+
+const templateInput =
+document.getElementById("template");
+
+const photoInput =
+document.getElementById("photo");
+
+
+const cv =
+document.getElementById("cv");
+
+const pName =
+document.getElementById("pName");
+
+const pContact =
+document.getElementById("pContact");
+
+const pEducation =
+document.getElementById("pEducation");
+
+const pExperience =
+document.getElementById("pExperience");
+
+const pSkills =
+document.getElementById("pSkills");
+
+const pLanguages =
+document.getElementById("pLanguages");
+
+const pPhoto =
+document.getElementById("pPhoto");
 
 
 /* =========================
 GLOBAL COUNTERS
 ========================= */
 
-const COUNTER_NAMESPACE="rizwanpesi1-collab.github.io";
+const COUNTER_NAMESPACE =
+"rizwanpesi1-collab.github.io";
 
-async function updateActionCounter(action,elementId){
+
+async function updateActionCounter(
+action,
+elementId
+){
 
 try{
 
-const url=
-"https://counterapi.com/api/"+
-encodeURIComponent(COUNTER_NAMESPACE)+"/"+
-encodeURIComponent(action)+"/cv";
+const url =
+"https://counterapi.com/api/" +
+encodeURIComponent(COUNTER_NAMESPACE) +
+"/" +
+encodeURIComponent(action) +
+"/cv";
 
-const response=await fetch(url);
+
+const response =
+await fetch(url);
+
 
 if(!response.ok)
-throw new Error("Counter request failed");
+throw new Error(
+"Counter request failed"
+);
 
-const data=await response.json();
 
-const element=document.getElementById(elementId);
+const data =
+await response.json();
 
-if(element && data.value!==undefined){
 
-element.textContent=data.value;
+const element =
+document.getElementById(
+elementId
+);
+
+
+if(
+element &&
+data.value !== undefined
+){
+
+element.textContent =
+data.value;
 
 }
 
 }catch(error){
 
-console.log("Counter error:",error);
+console.log(
+"Counter error:",
+error
+);
 
 }
 
@@ -1116,39 +3063,69 @@ console.log("Counter error:",error);
 
 async function loadActionCounters(){
 
-const counters=[
+const counters = [
 
-{action:"pdf_save",element:"pdfSaveCount"},
+{
+action:"pdf_save",
+element:"pdfSaveCount"
+},
 
-{action:"generate_cv",element:"generateCount"},
+{
+action:"generate_cv",
+element:"generateCount"
+},
 
-{action:"print_cv",element:"printCount"}
+{
+action:"print_cv",
+element:"printCount"
+}
 
 ];
 
-for(const item of counters){
+
+for(
+const item of counters
+){
 
 try{
 
-const url=
-"https://counterapi.com/api/"+
-encodeURIComponent(COUNTER_NAMESPACE)+"/"+
-encodeURIComponent(item.action)+
+const url =
+"https://counterapi.com/api/" +
+encodeURIComponent(
+COUNTER_NAMESPACE
+) +
+"/" +
+encodeURIComponent(
+item.action
+) +
 "/cv?readOnly=true";
 
-const response=await fetch(url);
+
+const response =
+await fetch(url);
+
 
 if(!response.ok)
 continue;
 
-const data=await response.json();
 
-const element=
-document.getElementById(item.element);
+const data =
+await response.json();
 
-if(element && data.value!==undefined){
 
-element.textContent=data.value;
+const element =
+document.getElementById(
+item.element
+);
+
+
+if(
+element &&
+data.value !== undefined
+){
+
+element.textContent =
+data.value;
 
 }
 
@@ -1172,43 +3149,78 @@ GENERATE CV
 
 function generateCV(){
 
-const name=nameInput.value.trim();
-const email=emailInput.value.trim();
-const phone=phoneInput.value.trim();
-const address=addressInput.value.trim();
-const education=educationInput.value.trim();
-const experience=experienceInput.value.trim();
-const skills=skillsInput.value.trim();
-const languages=languagesInput.value.trim();
+const name =
+nameInput.value.trim();
 
-pName.textContent=name||"Your Name";
-pName.dir="auto";
+const email =
+emailInput.value.trim();
 
-const contactParts=[];
+const phone =
+phoneInput.value.trim();
+
+const address =
+addressInput.value.trim();
+
+const education =
+educationInput.value.trim();
+
+const experience =
+experienceInput.value.trim();
+
+const skills =
+skillsInput.value.trim();
+
+const languages =
+languagesInput.value.trim();
+
+
+pName.textContent =
+name || "Your Name";
+
+pName.dir =
+"auto";
+
+
+const contactParts = [];
+
 
 if(email)
 contactParts.push(email);
 
+
 if(phone)
 contactParts.push(phone);
+
 
 if(address)
 contactParts.push(address);
 
-pContact.textContent=
+
+pContact.textContent =
 contactParts.length
-?contactParts.join(" | ")
-:"Email | Contact | Address";
+?
+contactParts.join(" | ")
+:
+"Email | Contact | Address";
 
-pContact.dir="auto";
 
-pEducation.textContent=
-education||"Your education details";
+pContact.dir =
+"auto";
 
-pExperience.textContent=
-experience||"Your work experience";
 
-pSkills.innerHTML="";
+pEducation.textContent =
+education ||
+"Your education details";
+
+
+pExperience.textContent =
+experience ||
+"Your work experience";
+
+
+pSkills.innerHTML =
+"";
+
 
 if(skills){
 
@@ -1216,20 +3228,31 @@ skills
 .split(/[,،\n]+/)
 .forEach(function(item){
 
-const value=item.trim();
+const value =
+item.trim();
+
 
 if(value)
-addTag(pSkills,value);
+addTag(
+pSkills,
+value
+);
 
 });
 
 }else{
 
-addTag(pSkills,"Your Skills");
+addTag(
+pSkills,
+"Your Skills"
+);
 
 }
 
-pLanguages.innerHTML="";
+
+pLanguages.innerHTML =
+"";
+
 
 if(languages){
 
@@ -1237,33 +3260,52 @@ languages
 .split(/[,،\n]+/)
 .forEach(function(item){
 
-const value=item.trim();
+const value =
+item.trim();
+
 
 if(value)
-addTag(pLanguages,value);
+addTag(
+pLanguages,
+value
+);
 
 });
 
 }else{
 
-addTag(pLanguages,"Urdu");
+addTag(
+pLanguages,
+"Urdu"
+);
 
 }
 
 }
 
 
-function addTag(parent,text){
+function addTag(
+parent,
+text
+){
 
-const tag=document.createElement("span");
+const tag =
+document.createElement(
+"span"
+);
 
-tag.className="tag";
+tag.className =
+"tag";
 
-tag.textContent=text;
+tag.textContent =
+text;
 
-tag.dir="auto";
+tag.dir =
+"auto";
 
-parent.appendChild(tag);
+parent.appendChild(
+tag
+);
 
 }
 
@@ -1274,9 +3316,43 @@ TEMPLATE
 
 function changeTemplate(){
 
-cv.className=templateInput.value;
+cv.className =
+templateInput.value;
 
 generateCV();
+
+}
+
+
+function selectTemplate(
+templateName
+){
+
+templateInput.value =
+templateName;
+
+changeTemplate();
+
+const builder =
+document.getElementById(
+"cv-builder"
+);
+
+if(builder){
+
+setTimeout(
+function(){
+
+builder.scrollIntoView({
+behavior:"smooth",
+block:"start"
+});
+
+},
+100
+);
+
+}
 
 }
 
@@ -1287,32 +3363,51 @@ PHOTO
 
 function loadPhoto(){
 
-const file=photoInput.files[0];
+const file =
+photoInput.files[0];
+
 
 if(!file)
 return;
 
-if(!file.type.startsWith("image/")){
 
-alert("Please select an image.");
+if(
+!file.type.startsWith(
+"image/"
+)
+){
 
-photoInput.value="";
+alert(
+"Please select an image."
+);
+
+photoInput.value =
+"";
 
 return;
 
 }
 
-const reader=new FileReader();
 
-reader.onload=function(event){
+const reader =
+new FileReader();
 
-pPhoto.src=event.target.result;
 
-pPhoto.style.display="block";
+reader.onload =
+function(event){
+
+pPhoto.src =
+event.target.result;
+
+pPhoto.style.display =
+"block";
 
 };
 
-reader.readAsDataURL(file);
+
+reader.readAsDataURL(
+file
+);
 
 }
 
@@ -1325,7 +3420,11 @@ async function savePDF(){
 
 generateCV();
 
-if(typeof html2canvas==="undefined"){
+
+if(
+typeof html2canvas ===
+"undefined"
+){
 
 alert(
 "PDF library load نہیں ہوئی۔ Internet connection check کریں۔"
@@ -1335,7 +3434,10 @@ return;
 
 }
 
-if(!window.jspdf){
+
+if(
+!window.jspdf
+){
 
 alert(
 "PDF system load نہیں ہوا۔ Page refresh کریں۔"
@@ -1345,23 +3447,36 @@ return;
 
 }
 
-const button=
-document.getElementById("pdfBtn");
 
-button.disabled=true;
+const button =
+document.getElementById(
+"pdfBtn"
+);
 
-button.textContent=
+
+button.disabled =
+true;
+
+button.textContent =
 "⏳ Creating PDF...";
+
 
 try{
 
-await new Promise(function(resolve){
+await new Promise(
+function(resolve){
 
-setTimeout(resolve,1000);
+setTimeout(
+resolve,
+1000
+);
 
-});
+}
+);
 
-const canvas=await html2canvas(
+
+const canvas =
+await html2canvas(
 
 cv,
 
@@ -1373,54 +3488,77 @@ useCORS:true,
 
 allowTaint:true,
 
-backgroundColor:"#ffffff",
+backgroundColor:
+"#ffffff",
 
 logging:false,
 
-windowWidth:cv.scrollWidth,
+windowWidth:
+cv.scrollWidth,
 
-windowHeight:cv.scrollHeight
+windowHeight:
+cv.scrollHeight
 
 }
 
 );
 
-const imgData=
+
+const imgData =
 canvas.toDataURL(
 "image/jpeg",
 0.95
 );
 
-const {jsPDF}=window.jspdf;
 
-const pdf=new jsPDF({
+const {jsPDF} =
+window.jspdf;
 
-orientation:"portrait",
 
-unit:"mm",
+const pdf =
+new jsPDF({
 
-format:"a4",
+orientation:
+"portrait",
+
+unit:
+"mm",
+
+format:
+"a4",
 
 compress:true
 
 });
 
-const pageWidth=
-pdf.internal.pageSize.getWidth();
 
-const pageHeight=
-pdf.internal.pageSize.getHeight();
+const pageWidth =
+pdf.internal.pageSize
+.getWidth();
 
-const imgWidth=pageWidth;
 
-const imgHeight=
-canvas.height*
-imgWidth/
+const pageHeight =
+pdf.internal.pageSize
+.getHeight();
+
+
+const imgWidth =
+pageWidth;
+
+
+const imgHeight =
+canvas.height *
+imgWidth /
 canvas.width;
 
-let heightLeft=imgHeight;
 
-let position=0;
+let heightLeft =
+imgHeight;
+
+
+let position =
+0;
+
 
 pdf.addImage(
 
@@ -1433,15 +3571,23 @@ imgHeight
 
 );
 
-heightLeft-=pageHeight;
 
-while(heightLeft>0){
+heightLeft -=
+pageHeight;
 
-position=
-heightLeft-imgHeight;
+
+while(
+heightLeft > 0
+){
+
+position =
+heightLeft -
+imgHeight;
+
 
 pdf.addPage();
 
+
 pdf.addImage(
 
 imgData,
@@ -1453,33 +3599,53 @@ imgHeight
 
 );
 
-heightLeft-=pageHeight;
+
+heightLeft -=
+pageHeight;
 
 }
 
-let fileName=
+
+let fileName =
 nameInput.value.trim();
+
 
 if(!fileName){
 
-fileName="Professional_CV";
+fileName =
+"Professional_CV";
 
 }
 
-fileName=fileName
-.replace(/[\/\\:*?"<>|]/g,"_")
-.replace(/\s+/g,"_");
 
-pdf.save(fileName+".pdf");
+fileName =
+fileName
+.replace(
+/[\/\\:*?"<>|]/g,
+"_"
+)
+.replace(
+/\s+/g,
+"_"
+);
+
+
+pdf.save(
+fileName +
+".pdf"
+);
+
 
 updateActionCounter(
 "pdf_save",
 "pdfSaveCount"
 );
 
+
 }catch(error){
 
 console.error(error);
+
 
 alert(
 "PDF بنانے میں مسئلہ آیا۔ دوبارہ کوشش کریں۔"
@@ -1487,9 +3653,12 @@ alert(
 
 }
 
-button.disabled=false;
 
-button.textContent=
+button.disabled =
+false;
+
+
+button.textContent =
 "📄 Save CV as PDF";
 
 }
@@ -1503,16 +3672,21 @@ function printCV(){
 
 generateCV();
 
+
 updateActionCounter(
 "print_cv",
 "printCount"
 );
 
-setTimeout(function(){
+
+setTimeout(
+function(){
 
 window.print();
 
-},300);
+},
+300
+);
 
 }
 
@@ -1523,29 +3697,57 @@ CLEAR
 
 function clearForm(){
 
-const confirmClear=
+const confirmClear =
 confirm(
 "کیا آپ تمام معلومات صاف کرنا چاہتے ہیں؟"
 );
 
+
 if(!confirmClear)
 return;
 
-nameInput.value="";
-emailInput.value="";
-phoneInput.value="";
-addressInput.value="";
-educationInput.value="";
-experienceInput.value="";
-skillsInput.value="";
-languagesInput.value="";
-photoInput.value="";
-templateInput.value="t1";
 
-cv.className="t1";
+nameInput.value =
+"";
 
-pPhoto.src="";
-pPhoto.style.display="none";
+emailInput.value =
+"";
+
+phoneInput.value =
+"";
+
+addressInput.value =
+"";
+
+educationInput.value =
+"";
+
+experienceInput.value =
+"";
+
+skillsInput.value =
+"";
+
+languagesInput.value =
+"";
+
+photoInput.value =
+"";
+
+templateInput.value =
+"t1";
+
+
+cv.className =
+"t1";
+
+
+pPhoto.src =
+"";
+
+pPhoto.style.display =
+"none";
+
 
 generateCV();
 
@@ -1556,12 +3758,14 @@ generateCV();
 BUTTON EVENTS
 ========================= */
 
-document.getElementById("generateBtn")
+document
+.getElementById("generateBtn")
 .addEventListener(
 "click",
 function(){
 
 generateCV();
+
 
 updateActionCounter(
 "generate_cv",
@@ -1571,21 +3775,24 @@ updateActionCounter(
 });
 
 
-document.getElementById("pdfBtn")
+document
+.getElementById("pdfBtn")
 .addEventListener(
 "click",
 savePDF
 );
 
 
-document.getElementById("printBtn")
+document
+.getElementById("printBtn")
 .addEventListener(
 "click",
 printCV
 );
 
 
-document.getElementById("clearBtn")
+document
+.getElementById("clearBtn")
 .addEventListener(
 "click",
 clearForm
@@ -1618,50 +3825,75 @@ experienceInput,
 skillsInput,
 languagesInput
 
-].forEach(function(input){
+].forEach(
+function(input){
 
 input.addEventListener(
 "input",
 generateCV
 );
 
-});
+}
+);
 
 
 /* =========================
 SMART AI
-NO API
 ========================= */
 
-const aiQuestion=
-document.getElementById("aiQuestion");
+const aiQuestion =
+document.getElementById(
+"aiQuestion"
+);
 
-const aiChat=
-document.getElementById("aiChat");
+const aiChat =
+document.getElementById(
+"aiChat"
+);
 
-const aiAskBtn=
-document.getElementById("aiAskBtn");
+const aiAskBtn =
+document.getElementById(
+"aiAskBtn"
+);
 
-const aiClearBtn=
-document.getElementById("aiClearBtn");
+const aiClearBtn =
+document.getElementById(
+"aiClearBtn"
+);
 
 
-function addAIMessage(text,type){
+function addAIMessage(
+text,
+type
+){
 
-const box=
-document.createElement("div");
+const box =
+document.createElement(
+"div"
+);
 
-box.className=
-"ai-message "+
-(type==="user"
-?"ai-user"
-:"ai-bot");
 
-box.textContent=text;
+box.className =
+"ai-message " +
+(
+type === "user"
+?
+"ai-user"
+:
+"ai-bot"
+);
 
-aiChat.appendChild(box);
 
-aiChat.scrollTop=
+box.textContent =
+text;
+
+
+aiChat.appendChild(
+box
+);
+
+
+aiChat.scrollTop =
 aiChat.scrollHeight;
 
 }
@@ -1671,15 +3903,20 @@ function getCVInformation(){
 
 return{
 
-name:nameInput.value.trim(),
+name:
+nameInput.value.trim(),
 
-education:educationInput.value.trim(),
+education:
+educationInput.value.trim(),
 
-experience:experienceInput.value.trim(),
+experience:
+experienceInput.value.trim(),
 
-skills:skillsInput.value.trim(),
+skills:
+skillsInput.value.trim(),
 
-languages:languagesInput.value.trim()
+languages:
+languagesInput.value.trim()
 
 };
 
@@ -1688,20 +3925,26 @@ languages:languagesInput.value.trim()
 
 function isUrdu(text){
 
-return /[\u0600-\u06FF]/.test(text);
+return /[\u0600-\u06FF]/.test(
+text
+);
 
 }
 
 
-function smartAIAnswer(question){
+function smartAIAnswer(
+question
+){
 
-const q=
+const q =
 question.toLowerCase().trim();
 
-const cvData=
+
+const cvData =
 getCVInformation();
 
-const urdu=
+
+const urdu =
 isUrdu(question);
 
 
@@ -1709,39 +3952,41 @@ isUrdu(question);
 
 if(
 
-q.includes("summary")||
-q.includes("profile")||
-q.includes("پروفیشنل")||
-q.includes("سمری")||
+q.includes("summary") ||
+q.includes("profile") ||
+q.includes("پروفیشنل") ||
+q.includes("سمری") ||
 q.includes("خلاصہ")
 
 ){
 
-const education=
-cvData.education||
+const education =
+cvData.education ||
 "Intermediate";
 
-const skills=
-cvData.skills||
+
+const skills =
+cvData.skills ||
 "Computer skills, communication and MS Office";
+
 
 if(urdu){
 
 return(
 
-"Professional Summary:\n\n"+
+"Professional Summary:\n\n" +
 
-"میں ایک محنتی اور ذمہ دار امیدوار ہوں۔ "+
+"میں ایک محنتی اور ذمہ دار امیدوار ہوں۔ " +
 
-education+
+education +
 
-" کی تعلیم کے ساتھ "+
+" کی تعلیم کے ساتھ " +
 
-skills+
+skills +
 
-" میں دلچسپی اور بنیادی مہارت رکھتا ہوں۔ "+
+" میں دلچسپی اور بنیادی مہارت رکھتا ہوں۔ " +
 
-"میں نئی skills سیکھنے، ٹیم کے ساتھ کام کرنے "+
+"میں نئی skills سیکھنے، ٹیم کے ساتھ کام کرنے " +
 
 "اور ادارے کے اہداف حاصل کرنے کے لیے پُرعزم ہوں۔"
 
@@ -1749,19 +3994,20 @@ skills+
 
 }
 
+
 return(
 
-"Professional Summary:\n\n"+
+"Professional Summary:\n\n" +
 
-"A hardworking and responsible candidate with "+
+"A hardworking and responsible candidate with " +
 
-education+
+education +
 
-" education and skills in "+
+" education and skills in " +
 
-skills+
+skills +
 
-". I am eager to learn new skills, work effectively "+
+". I am eager to learn new skills, work effectively " +
 
 "with a team, and contribute to organizational goals."
 
@@ -1774,9 +4020,9 @@ skills+
 
 if(
 
-q.includes("skill")||
-q.includes("skills")||
-q.includes("مہارت")||
+q.includes("skill") ||
+q.includes("skills") ||
+q.includes("مہارت") ||
 q.includes("سکل")
 
 ){
@@ -1785,17 +4031,17 @@ if(urdu){
 
 return(
 
-"آپ اپنی CV میں یہ skills شامل کر سکتے ہیں:\n\n"+
+"آپ اپنی CV میں یہ skills شامل کر سکتے ہیں:\n\n" +
 
-"• MS Word\n"+
-"• MS Excel\n"+
-"• PowerPoint\n"+
-"• Data Entry\n"+
-"• Communication\n"+
-"• Typing\n"+
-"• Internet & Email\n"+
-"• Time Management\n"+
-"• Teamwork\n\n"+
+"• MS Word\n" +
+"• MS Excel\n" +
+"• PowerPoint\n" +
+"• Data Entry\n" +
+"• Communication\n" +
+"• Typing\n" +
+"• Internet & Email\n" +
+"• Time Management\n" +
+"• Teamwork\n\n" +
 
 "صرف وہی skills شامل کریں جو آپ واقعی جانتے ہیں۔"
 
@@ -1803,19 +4049,20 @@ return(
 
 }
 
+
 return(
 
-"Useful CV skills can include:\n\n"+
+"Useful CV skills can include:\n\n" +
 
-"• MS Word\n"+
-"• MS Excel\n"+
-"• PowerPoint\n"+
-"• Data Entry\n"+
-"• Communication\n"+
-"• Typing\n"+
-"• Internet & Email\n"+
-"• Time Management\n"+
-"• Teamwork\n\n"+
+"• MS Word\n" +
+"• MS Excel\n" +
+"• PowerPoint\n" +
+"• Data Entry\n" +
+"• Communication\n" +
+"• Typing\n" +
+"• Internet & Email\n" +
+"• Time Management\n" +
+"• Teamwork\n\n" +
 
 "Only include skills that you actually have."
 
@@ -1828,8 +4075,8 @@ return(
 
 if(
 
-q.includes("interview")||
-q.includes("انٹرویو")||
+q.includes("interview") ||
+q.includes("انٹرویو") ||
 q.includes("سوال")
 
 ){
@@ -1838,14 +4085,14 @@ if(urdu){
 
 return(
 
-"Interview کی تیاری کے لیے یہ سوالات practice کریں:\n\n"+
+"Interview کی تیاری کے لیے یہ سوالات practice کریں:\n\n" +
 
-"1. اپنے بارے میں بتائیں۔\n"+
-"2. آپ یہ job کیوں کرنا چاہتے ہیں؟\n"+
-"3. آپ کی strengths کیا ہیں؟\n"+
-"4. آپ کی skills کیا ہیں؟\n"+
-"5. آپ ہماری company میں کیوں کام کرنا چاہتے ہیں؟\n"+
-"6. آپ pressure میں کیسے کام کرتے ہیں؟\n\n"+
+"1. اپنے بارے میں بتائیں۔\n" +
+"2. آپ یہ job کیوں کرنا چاہتے ہیں؟\n" +
+"3. آپ کی strengths کیا ہیں؟\n" +
+"4. آپ کی skills کیا ہیں؟\n" +
+"5. آپ ہماری company میں کیوں کام کرنا چاہتے ہیں؟\n" +
+"6. آپ pressure میں کیسے کام کرتے ہیں؟\n\n" +
 
 "جوابات مختصر، صاف اور اعتماد کے ساتھ دیں۔"
 
@@ -1853,16 +4100,17 @@ return(
 
 }
 
+
 return(
 
-"Practice these interview questions:\n\n"+
+"Practice these interview questions:\n\n" +
 
-"1. Tell me about yourself.\n"+
-"2. Why do you want this job?\n"+
-"3. What are your strengths?\n"+
-"4. What are your skills?\n"+
-"5. Why do you want to work for our company?\n"+
-"6. How do you handle pressure?\n\n"+
+"1. Tell me about yourself.\n" +
+"2. Why do you want this job?\n" +
+"3. What are your strengths?\n" +
+"4. What are your skills?\n" +
+"5. Why do you want to work for our company?\n" +
+"6. How do you handle pressure?\n\n" +
 
 "Keep your answers short, clear and confident."
 
@@ -1875,10 +4123,10 @@ return(
 
 if(
 
-q.includes("job")||
-q.includes("jobs")||
-q.includes("نوکری")||
-q.includes("جاب")||
+q.includes("job") ||
+q.includes("jobs") ||
+q.includes("نوکری") ||
+q.includes("جاب") ||
 q.includes("کام")
 
 ){
@@ -1887,15 +4135,15 @@ if(urdu){
 
 return(
 
-"آپ اپنی تعلیم اور skills کے مطابق "+
+"آپ اپنی تعلیم اور skills کے مطابق " +
 
-"Computer Operator، Data Entry Operator، "+
+"Computer Operator، Data Entry Operator، " +
 
-"Office Assistant، Customer Support یا "+
+"Office Assistant، Customer Support یا " +
 
-"Junior Clerk جیسی jobs دیکھ سکتے ہیں۔\n\n"+
+"Junior Clerk جیسی jobs دیکھ سکتے ہیں۔\n\n" +
 
-"اپنی CV میں education، computer skills، "+
+"اپنی CV میں education، computer skills، " +
 
 "typing اور communication skills واضح رکھیں۔"
 
@@ -1903,15 +4151,16 @@ return(
 
 }
 
+
 return(
 
-"Depending on your education and skills, "+
+"Depending on your education and skills, " +
 
-"you can consider Computer Operator, Data Entry Operator, "+
+"you can consider Computer Operator, Data Entry Operator, " +
 
-"Office Assistant, Customer Support or Junior Clerk roles.\n\n"+
+"Office Assistant, Customer Support or Junior Clerk roles.\n\n" +
 
-"Keep your education, computer skills, typing and "+
+"Keep your education, computer skills, typing and " +
 
 "communication skills clear on your CV."
 
@@ -1924,9 +4173,9 @@ return(
 
 if(
 
-q.includes("education")||
-q.includes("تعلیم")||
-q.includes("qualification")||
+q.includes("education") ||
+q.includes("تعلیم") ||
+q.includes("qualification") ||
 q.includes("کوالیفکیشن")
 
 ){
@@ -1935,32 +4184,33 @@ if(urdu){
 
 return(
 
-"CV میں اپنی education اس ترتیب سے لکھیں:\n\n"+
+"CV میں اپنی education اس ترتیب سے لکھیں:\n\n" +
 
-"Qualification\n"+
-"Institution\n"+
-"Year / Result\n\n"+
+"Qualification\n" +
+"Institution\n" +
+"Year / Result\n\n" +
 
-"مثال:\n"+
-"Intermediate (FA)\n"+
-"Government Higher Secondary School\n"+
+"مثال:\n" +
+"Intermediate (FA)\n" +
+"Government Higher Secondary School\n" +
 "2026"
 
 );
 
 }
 
+
 return(
 
-"Write education in this format:\n\n"+
+"Write education in this format:\n\n" +
 
-"Qualification\n"+
-"Institution\n"+
-"Year / Result\n\n"+
+"Qualification\n" +
+"Institution\n" +
+"Year / Result\n\n" +
 
-"Example:\n"+
-"Intermediate (FA)\n"+
-"Government Higher Secondary School\n"+
+"Example:\n" +
+"Intermediate (FA)\n" +
+"Government Higher Secondary School\n" +
 "2026"
 
 );
@@ -1972,11 +4222,11 @@ return(
 
 if(
 
-q.includes("improve")||
-q.includes("better")||
-q.includes("cv")||
-q.includes("resume")||
-q.includes("بہتر")||
+q.includes("improve") ||
+q.includes("better") ||
+q.includes("cv") ||
+q.includes("resume") ||
+q.includes("بہتر") ||
 q.includes("سی وی")
 
 ){
@@ -1985,28 +4235,29 @@ if(urdu){
 
 return(
 
-"آپ کی CV بہتر بنانے کے لیے:\n\n"+
+"آپ کی CV بہتر بنانے کے لیے:\n\n" +
 
-"1. Professional Summary شامل کریں۔\n"+
-"2. Relevant skills لکھیں۔\n"+
-"3. Education واضح انداز میں لکھیں۔\n"+
-"4. Experience میں responsibilities لکھیں۔\n"+
-"5. Spelling اور contact information check کریں۔\n"+
+"1. Professional Summary شامل کریں۔\n" +
+"2. Relevant skills لکھیں۔\n" +
+"3. Education واضح انداز میں لکھیں۔\n" +
+"4. Experience میں responsibilities لکھیں۔\n" +
+"5. Spelling اور contact information check کریں۔\n" +
 "6. CV کو مختصر اور صاف رکھیں۔"
 
 );
 
 }
 
+
 return(
 
-"To improve your CV:\n\n"+
+"To improve your CV:\n\n" +
 
-"1. Add a professional summary.\n"+
-"2. Include relevant skills.\n"+
-"3. Present education clearly.\n"+
-"4. Add responsibilities under experience.\n"+
-"5. Check spelling and contact information.\n"+
+"1. Add a professional summary.\n" +
+"2. Include relevant skills.\n" +
+"3. Present education clearly.\n" +
+"4. Add responsibilities under experience.\n" +
+"5. Check spelling and contact information.\n" +
 "6. Keep the CV clean and concise."
 
 );
@@ -2020,32 +4271,33 @@ if(urdu){
 
 return(
 
-"میں آپ کی CV اور career سے متعلق مدد کر سکتا ہوں۔ 😊\n\n"+
+"میں آپ کی CV اور career سے متعلق مدد کر سکتا ہوں۔ 😊\n\n" +
 
-"آپ مجھ سے پوچھ سکتے ہیں:\n\n"+
+"آپ مجھ سے پوچھ سکتے ہیں:\n\n" +
 
-"• میری CV بہتر کرو\n"+
-"• Professional Summary لکھو\n"+
-"• CV میں skills کیا لکھوں؟\n"+
-"• Job interview کی تیاری کرواؤ\n"+
-"• Education کیسے لکھوں؟\n"+
+"• میری CV بہتر کرو\n" +
+"• Professional Summary لکھو\n" +
+"• CV میں skills کیا لکھوں؟\n" +
+"• Job interview کی تیاری کرواؤ\n" +
+"• Education کیسے لکھوں؟\n" +
 "• میرے لیے مناسب job کون سی ہے؟"
 
 );
 
 }
 
+
 return(
 
-"I can help you with your CV and career. 😊\n\n"+
+"I can help you with your CV and career. 😊\n\n" +
 
-"You can ask me:\n\n"+
+"You can ask me:\n\n" +
 
-"• Improve my CV\n"+
-"• Write a professional summary\n"+
-"• What skills should I add?\n"+
-"• Help me prepare for an interview\n"+
-"• How should I write my education?\n"+
+"• Improve my CV\n" +
+"• Write a professional summary\n" +
+"• What skills should I add?\n" +
+"• Help me prepare for an interview\n" +
+"• How should I write my education?\n" +
 "• What jobs may suit my skills?"
 
 );
@@ -2053,56 +4305,78 @@ return(
 }
 
 
-/* ASK AI */
+/* =========================
+ASK AI
+========================= */
 
 function askSmartAI(){
 
-const question=
+const question =
 aiQuestion.value.trim();
+
 
 if(!question){
 
-alert("پہلے اپنا سوال لکھیں۔");
+alert(
+"پہلے اپنا سوال لکھیں۔"
+);
 
 return;
 
 }
+
 
 addAIMessage(
 question,
 "user"
 );
 
-aiQuestion.value="";
 
-aiAskBtn.disabled=true;
+aiQuestion.value =
+"";
 
-aiAskBtn.textContent=
+
+aiAskBtn.disabled =
+true;
+
+
+aiAskBtn.textContent =
 "⏳ Thinking...";
 
-setTimeout(function(){
 
-const answer=
-smartAIAnswer(question);
+setTimeout(
+function(){
+
+const answer =
+smartAIAnswer(
+question
+);
+
 
 addAIMessage(
 answer,
 "bot"
 );
 
-aiAskBtn.disabled=false;
 
-aiAskBtn.textContent=
+aiAskBtn.disabled =
+false;
+
+
+aiAskBtn.textContent =
 "🤖 Ask AI";
 
-},500);
+},
+500
+);
 
 }
 
 
 function quickAI(text){
 
-aiQuestion.value=text;
+aiQuestion.value =
+text;
 
 askSmartAI();
 
@@ -2120,7 +4394,7 @@ aiQuestion.addEventListener(
 function(event){
 
 if(
-event.key==="Enter" &&
+event.key === "Enter" &&
 !event.shiftKey
 ){
 
@@ -2137,7 +4411,9 @@ aiClearBtn.addEventListener(
 "click",
 function(){
 
-aiChat.innerHTML="";
+aiChat.innerHTML =
+"";
+
 
 addAIMessage(
 "چیٹ صاف کر دی گئی ہے۔ 😊\nدوبارہ سوال پوچھیں۔",
@@ -2147,7 +4423,9 @@ addAIMessage(
 });
 
 
-/* START */
+/* =========================
+START
+========================= */
 
 generateCV();
 
