@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://rizwanpesi1-collab.github.io/sitemap.xml
